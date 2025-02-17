@@ -1,35 +1,33 @@
 import React from 'react'
 import Image1 from '../../assets/hero/teste.jpg'
-import Image2 from '../../assets/hero/teste.jpg'
-import Image3 from '../../assets/hero/teste.jpg'
 import Slider from "react-slick"
 
 const ImageList =[
     {
         id:1,
         img: Image1,
-        title: "",
-        description:"",
+        title: "teste1",
+        description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptatibus debitis et consectetur officia inventore vero quae blanditiis alias, saepe porro veritatis dolorem est, eligendi deleniti voluptates perspiciatis magni nesciunt.",
 
     },
     {
         id:2,
-        img: Image2,
-        title:"",
-        description:"",
+        img: Image1,
+        title:"teste2",
+        description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptatibus debitis et consectetur officia inventore vero quae blanditiis alias, saepe porro veritatis dolorem est, eligendi deleniti voluptates perspiciatis magni nesciunt.",
 
     },
     {
         id:3,
-        img: Image3,
-        title:"",
-        description:"",
+        img: Image1,
+        title:"teste3",
+        description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptatibus debitis et consectetur officia inventore vero quae blanditiis alias, saepe porro veritatis dolorem est, eligendi deleniti voluptates perspiciatis magni nesciunt.",
 
     },
 ]
 
 const Hero = () => {
-    var settings ={
+    var settings = {
         dots:false,
         arrows:false,
         infinite:true,
